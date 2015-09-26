@@ -136,17 +136,4 @@
       </block>
     </statement>
   </block>
-  <block type="logic_compare" id="239" inline="true" x="716" y="457">
-    <field name="OP">LT</field>
-    <value name="A">
-      <block type="sensor_object" id="240">
-        <field name="OBJECT">RIGHTFRONT</field>
-      </block>
-    </value>
-    <value name="B">
-      <block type="math_number" id="241">
-        <field name="NUM">75</field>
-      </block>
-    </value>
-  </block>
 </xml>
