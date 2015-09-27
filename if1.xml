@@ -33,7 +33,12 @@
               </block>
             </value>
             <next>
-              <block type="movement_right" id="9"></block>
+              <block type="multimedia_playwav" id="84">
+                <field name="WAV">300</field>
+                <next>
+                  <block type="movement_right" id="9"></block>
+                </next>
+              </block>
             </next>
           </block>
         </statement>
