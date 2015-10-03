@@ -170,7 +170,7 @@
               <block type="robot_delay" id="107" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="108">
-                    <field name="NUM">200</field>
+                    <field name="NUM">100</field>
                   </block>
                 </value>
               </block>
@@ -178,8 +178,11 @@
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_forward" id="27"></block>
+          <block type="movement_forward" id="122"></block>
         </statement>
+        <next>
+          <block type="movement_forward" id="27"></block>
+        </next>
       </block>
     </statement>
   </block>
