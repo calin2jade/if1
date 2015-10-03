@@ -111,6 +111,21 @@
             </next>
           </block>
         </statement>
+        <value name="IF2">
+          <block type="logic_compare" id="109" inline="true">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="sensor_object" id="110">
+                <field name="OBJECT">RIGHTFRONT</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="111">
+                <field name="NUM">75</field>
+              </block>
+            </value>
+          </block>
+        </value>
         <statement name="DO2">
           <block type="led_select" id="49" inline="true">
             <field name="ACTION">FLASH</field>
