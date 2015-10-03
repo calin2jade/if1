@@ -173,6 +173,9 @@
                     <field name="NUM">100</field>
                   </block>
                 </value>
+                <next>
+                  <block type="movement_forward" id="123"></block>
+                </next>
               </block>
             </next>
           </block>
