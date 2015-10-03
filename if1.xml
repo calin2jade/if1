@@ -154,7 +154,7 @@
             <field name="OP">GT</field>
             <value name="A">
               <block type="sensor_object" id="95">
-                <field name="OBJECT">LEFTSIDE</field>
+                <field name="OBJECT">RIGHTSIDE</field>
               </block>
             </value>
             <value name="B">
@@ -165,7 +165,7 @@
           </block>
         </value>
         <statement name="DO3">
-          <block type="movement_right" id="106">
+          <block type="movement_right" id="121">
             <next>
               <block type="robot_delay" id="107" inline="true">
                 <value name="DELAY">
