@@ -97,7 +97,17 @@
               </block>
             </value>
             <next>
-              <block type="movement_right" id="20"></block>
+              <block type="movement_right" id="20">
+                <next>
+                  <block type="robot_delay" id="25" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="26">
+                        <field name="NUM">200</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </statement>
@@ -117,19 +127,20 @@
           </block>
         </value>
         <statement name="DO2">
-          <block type="movement_left" id="24"></block>
-        </statement>
-        <statement name="ELSE">
-          <block type="robot_delay" id="25" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="26">
-                <field name="NUM">200</field>
-              </block>
-            </value>
+          <block type="movement_left" id="24">
             <next>
-              <block type="movement_forward" id="27"></block>
+              <block type="robot_delay" id="47" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="48">
+                    <field name="NUM">200</field>
+                  </block>
+                </value>
+              </block>
             </next>
           </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="movement_forward" id="27"></block>
         </statement>
       </block>
     </statement>
