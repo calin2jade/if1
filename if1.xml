@@ -45,21 +45,21 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_reverse" id="11">
+          <block type="movement_left" id="43">
             <next>
-              <block type="robot_delay" id="12" inline="true">
+              <block type="robot_delay" id="45" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="13">
-                    <field name="NUM">200</field>
+                  <block type="math_number" id="46">
+                    <field name="NUM">300</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_left" id="43">
+                  <block type="movement_reverse" id="11">
                     <next>
-                      <block type="robot_delay" id="45" inline="true">
+                      <block type="robot_delay" id="12" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="46">
-                            <field name="NUM">400</field>
+                          <block type="math_number" id="13">
+                            <field name="NUM">300</field>
                           </block>
                         </value>
                         <next>
