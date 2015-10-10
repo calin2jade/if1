@@ -54,14 +54,18 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_reverse" id="14">
+                  <block type="oled_setcursor" id="44" inline="true">
                     <next>
-                      <block type="robot_delay" id="15" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="16">
-                            <field name="NUM">300</field>
+                      <block type="movement_reverse" id="14">
+                        <next>
+                          <block type="robot_delay" id="15" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="16">
+                                <field name="NUM">300</field>
+                              </block>
+                            </value>
                           </block>
-                        </value>
+                        </next>
                       </block>
                     </next>
                   </block>
